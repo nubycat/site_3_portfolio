@@ -43,6 +43,7 @@ body {
     --primary-color: #01996D;
     --secondary-color: #484848;
     --background-color: #245852;
+    --text-collor: #292929;
 }
 
 /* <!-- Шапка сайта --> */
@@ -84,9 +85,77 @@ body {
 
 .header_btn {}
 
+/* <!-- Секция "Меню" --> */
+
+.navbar {
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__inner {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.navbar_logo {
+    margin-right: 172px;
+}
+
+.navbar__box {
+    width: 1117px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar__list {
+    width: 557px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar_h3 {
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: var(--text-collor);
+}
+
+.buttoms__navbar {
+    display: flex;
+
+}
+
+.navbar_p {
+    margin-right: 35px;
+}
+
+.navbar__btn {
+    width: 181px;
+    height: 51px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    color: #FFFFFF;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
 /* <!-- Подвал сайта --> */
 
 .footer {
+    margin-top: -1px;
     background-color: var(--background-color);
     padding: 95px 0;
 }
